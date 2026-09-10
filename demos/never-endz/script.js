@@ -19,7 +19,11 @@
   setText("heroEyebrow", data.hero.eyebrow);
   setText("heroTitle", data.hero.title);
   setText("heroText", data.hero.text);
-  setText("primaryCta", data.hero.primaryCta);
+  setText("primaryCta", `Call to Book • ${b.phoneDisplay}`);
+  setText("headerCall", `Call Now • ${b.phoneDisplay}`);
+  setText("panelCall", `Call the Salon • ${b.phoneDisplay}`);
+  setText("contactCall", `Call Now • ${b.phoneDisplay}`);
+  setText("mobileCall", "Call");
   setText("quickPhone", b.phoneDisplay);
   setText("quickLocation", b.cityState);
   setText("quickHours", "Tue–Sat • Call for appointment");

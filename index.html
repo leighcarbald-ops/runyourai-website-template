@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Fast, modern small-business website template by RunYourAI." />
+  <title>Local Business | Professional Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="business.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="announcement" id="announcement">Locally owned • Friendly service • Call today</div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-mark" id="brandInitials">LB</span>
+        <span class="brand-copy">
+          <strong id="brandName">Local Business</strong>
+          <small id="brandTagline">Professional service you can count on</small>
+        </span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navLinks">Menu</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="button button-small desktop-cta" id="headerCall" href="tel:+10000000000">Call Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow" id="heroEyebrow">Trusted local service</span>
+          <h1 id="heroTitle">A better first impression for your business.</h1>
+          <p class="hero-text" id="heroText">Professional service, straightforward communication, and a team that cares about doing the job right.</p>
+          <div class="hero-actions">
+            <a class="button" id="primaryCta" href="tel:+10000000000">Call for a Quote</a>
+            <a class="button button-secondary" href="#services">View Services</a>
+          </div>
+          <div class="trust-row" id="trustRow"></div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-photo" id="heroPhoto" role="img" aria-label="Business image"></div>
+          <div class="quick-info">
+            <div>
+              <span>Phone</span>
+              <a id="quickPhone" href="tel:+10000000000">(000) 000-0000</a>
+            </div>
+            <div>
+              <span>Location</span>
+              <strong id="quickLocation">Your City, State</strong>
+            </div>
+            <div>
+              <span>Hours</span>
+              <strong id="quickHours">Mon–Fri 8:00 AM–5:00 PM</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">What we do</span>
+          <h2 id="servicesTitle">Services built around what you need.</h2>
+          <p id="servicesIntro">Choose from our most-requested services. Call us if you need something you do not see listed.</p>
+        </div>
+        <div class="cards" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">Why choose us</span>
+          <h2 id="aboutTitle">Local service. Professional standards.</h2>
+          <p id="aboutText">We make it easy to get dependable service without the runaround. Our focus is quality work, clear communication, and treating customers right.</p>
+          <ul class="check-list" id="aboutPoints"></ul>
+        </div>
+        <aside class="about-panel">
+          <span class="panel-kicker">Need help today?</span>
+          <h3 id="panelTitle">Talk with a real person.</h3>
+          <p id="panelText">Call now to ask a question, request pricing, or get started.</p>
+          <a class="button" id="panelCall" href="tel:+10000000000">Call Now</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Customer feedback</span>
+          <h2>What customers are saying.</h2>
+        </div>
+        <div class="review-grid" id="reviewGrid"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">Get in touch</span>
+          <h2 id="contactTitle">Ready to get started?</h2>
+          <p id="contactText">Call, email, or stop by. We would be glad to help.</p>
+          <div class="contact-list">
+            <a id="contactPhone" href="tel:+10000000000">(000) 000-0000</a>
+            <a id="contactEmail" href="mailto:hello@example.com">hello@example.com</a>
+            <span id="contactAddress">123 Main Street, Your City, ST 00000</span>
+          </div>
+          <div class="contact-actions">
+            <a class="button" id="contactCall" href="tel:+10000000000">Call Now</a>
+            <a class="button button-secondary" id="mapLink" href="#" target="_blank" rel="noopener">Get Directions</a>
+          </div>
+        </div>
+        <div class="hours-card">
+          <h3>Business Hours</h3>
+          <div id="hoursList"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong id="footerBusinessName">Local Business</strong>
+        <p id="footerLocation">Your City, State</p>
+      </div>
+      <div class="footer-credit">Website by <a href="https://runyourai.pro" target="_blank" rel="noopener">RunYourAI</a></div>
+    </div>
+  </footer>
+
+  <div class="mobile-bar">
+    <a id="mobileCall" href="tel:+10000000000">Call</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</body>
+</html>

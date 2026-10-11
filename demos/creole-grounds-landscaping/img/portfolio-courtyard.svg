@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="pcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a7a52"/>
+      <stop offset="100%" stop-color="#3d5a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#pcGrad)"/>
+  <rect x="50" y="100" width="300" height="150" rx="8" fill="#c9b89d" opacity="0.4"/>
+  <circle cx="200" cy="175" r="25" fill="#f7f4ee" opacity="0.3"/>
+  <rect x="160" y="120" width="80" height="20" rx="10" fill="#b89a5b"/>
+  <path d="M100 220 Q200 240 300 220" stroke="#f7f4ee" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="200" y="280" text-anchor="middle" fill="#f7f4ee" font-family="Inter, sans-serif" font-size="14" font-weight="600">Courtyard Garden</text>
+</svg>

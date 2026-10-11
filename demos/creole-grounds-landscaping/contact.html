@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="[DEMO] Contact Creole Grounds Landscaping for a free residential landscape consultation in New Orleans. Demonstration website — all contact information is fictitious." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://leighcarbald-ops.github.io/runyourai-website-template/demos/creole-grounds-landscaping/contact.html" />
+  <title>Contact — Creole Grounds Landscaping [DEMO] | New Orleans</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:,">
+  <script defer src="js/business.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <div class="demo-badge">DEMO</div>
+
+  <div class="demo-banner">
+    <p id="demoNoticeText"><strong>DEMONSTRATION WEBSITE</strong> — All content, pricing, imagery, and contact information are fictitious and for showcase purposes only. This is not an operating business. Do not submit personal data.</p>
+  </div>
+
+  <div class="announcement" id="announcement">Demonstration website only • Upscale residential landscape concepts • Free design consultations</div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Creole Grounds Landscaping — Home">
+        <span class="brand-mark" id="brandInitials">CG</span>
+        <span class="brand-copy">
+          <strong id="brandName">Creole Grounds Landscaping</strong>
+          <small id="brandTagline">Upscale residential landscape design & care</small>
+        </span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navLinks">Menu</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- CONTACT HERO -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Get In Touch</span>
+          <h1 id="contactTitle">Ready to Design Your Outdoor Sanctuary?</h1>
+          <p id="contactText">Reach out for a free, no-obligation consultation. We respond within one business day. <strong class="demo-small">Note: This is a demonstration contact form — no message is actually sent.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT GRID -->
+    <section class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <!-- CONTACT DETAILS -->
+          <div class="contact-details">
+            <div class="contact-list">
+              <div>
+                <span class="contact-label">Demo Phone</span>
+                <div class="contact-value" id="contactPhone">(504) 555-0192</div>
+              </div>
+              <div>
+                <span class="contact-label">Demo Email</span>
+                <div class="contact-value" id="contactEmail">hello@creolegrounds.com</div>
+              </div>
+              <div>
+                <span class="contact-label">Demo Location</span>
+                <span id="contactAddress">New Orleans, Louisiana (demonstration only)</span>
+              </div>
+            </div>
+
+            <!-- BUSINESS HOURS -->
+            <div class="hours-card">
+              <h3>Business Hours</h3>
+              <p class="demo-small">Demonstration hours — not an operating business.</p>
+              <div id="hoursList"></div>
+            </div>
+          </div>
+
+          <!-- CONTACT FORM -->
+          <div class="contact-form-container">
+            <h3>Send Us a Message</h3>
+            <p class="demo-small">This is a demonstration form. Validation works locally but <strong>no message is sent or stored</strong>.</p>
+
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" required aria-describedby="formError">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required aria-describedby="formError">
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(504) 555-0192">
+              </div>
+
+              <div class="form-group">
+                <label for="service">Service Interested In</label>
+                <select id="service" name="service">
+                  <option value="">Select a service…</option>
+                  <option value="design">Landscape Design</option>
+                  <option value="installation">Landscape Installation</option>
+                  <option value="maintenance">Premium Maintenance</option>
+                  <option value="hardscape">Outdoor Living Construction</option>
+                  <option value="lighting">Landscape Lighting</option>
+                  <option value="drainage">Drainage Solutions</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" rows="5" required aria-describedby="formError" placeholder="Tell us about your project…"></textarea>
+              </div>
+
+              <div id="formError" class="form-error" role="alert" style="display: none;"></div>
+              <div id="formSuccess" class="form-success" style="display: none;"></div>
+
+              <button type="submit" class="button button-lg">Send Message (Demo)</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONVERSION -->
+    <section class="section conversion-section">
+      <div class="container">
+        <div class="conversion-content">
+          <span class="eyebrow">Ready to Begin?</span>
+          <h2>Let's Create Your Perfect Outdoor Space</h2>
+          <p class="conversion-text">Book your free, no-obligation consultation. We'll review your property, discuss your vision, and provide a detailed proposal.</p>
+          <div class="conversion-actions">
+            <a class="button button-lg" href="contact.html#contactForm">Book Free Consultation</a>
+            <a class="button button-secondary button-lg" href="services.html">View All Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong id="footerBusinessName">Creole Grounds Landscaping</strong>
+        <p id="footerLocation">New Orleans, Louisiana</p>
+        <p class="demo-small">Demonstration website — not an operating business</p>
+      </div>
+      <div class="footer-credit">Website concept by <a href="https://runyourai.pro" target="_blank" rel="noopener">RunYourAI</a></div>
+    </div>
+  </footer>
+
+  <div class="mobile-bar">
+    <a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+  </div>
+</body>
+</html>

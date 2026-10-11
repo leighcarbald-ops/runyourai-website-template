@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="instGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d5a3a"/>
+      <stop offset="100%" stop-color="#5a7a52"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#instGrad)"/>
+  <g transform="translate(180,140)">
+    <rect x="-30" y="-30" width="60" height="60" rx="10" fill="#c9b89d"/>
+    <line x1="-20" y1="-10" x2="-10" y2="0" stroke="#2b2d27" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-10" y1="0" x2="0" y2="10" stroke="#2b2d27" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(200,190)" fill="#f7f4ee">
+    <rect x="-40" y="0" width="80" height="50" rx="8"/>
+    <circle cx="0" cy="20" r="8" fill="#c9b89d"/>
+  </g>
+  <path d="M100 200 Q200 180 300 210" stroke="#f7f4ee" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="200" y="270" text-anchor="middle" fill="#f7f4ee" font-family="Inter, sans-serif" font-size="16" font-weight="600">Installation</text>
+</svg>

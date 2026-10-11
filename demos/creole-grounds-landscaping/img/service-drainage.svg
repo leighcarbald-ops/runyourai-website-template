@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="drnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a7a52"/>
+      <stop offset="50%" stop-color="#3d5a3a"/>
+      <stop offset="100%" stop-color="#2b2d27"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#drnGrad)"/>
+  <rect x="80" y="120" width="240" height="100" fill="#2b2d27"/>
+  <rect x="80" y="130" width="240" height="20" fill="#3d5a3a"/>
+  <rect x="80" y="115" width="240" height="5" fill="#c9b89d"/>
+  <g transform="translate(200,145)">
+    <rect x="-80" y="-5" width="160" height="10" rx="5" fill="#f7f4ee"/>
+    <circle cx="-60" cy="0" r="4" fill="#2b2d27"/>
+    <circle cx="-30" cy="0" r="4" fill="#2b2d27"/>
+    <circle cx="0" cy="0" r="4" fill="#2b2d27"/>
+    <circle cx="30" cy="0" r="4" fill="#2b2d27"/>
+    <circle cx="60" cy="0" r="4" fill="#2b2d27"/>
+  </g>
+  <g fill="#b89a5b" opacity="0.6">
+    <circle cx="100" cy="160" r="5"/>
+    <circle cx="140" cy="155" r="4"/>
+    <circle cx="180" cy="165" r="5"/>
+    <circle cx="220" cy="158" r="4"/>
+    <circle cx="260" cy="162" r="4"/>
+    <circle cx="300" cy="156" r="5"/>
+    <circle cx="340" cy="163" r="4"/>
+    <circle cx="370" cy="157" r="5"/>
+  </g>
+  <text x="200" y="270" text-anchor="middle" fill="#f7f4ee" font-family="Inter, sans-serif" font-size="16" font-weight="600">Drainage Solutions</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a7a52"/>
+      <stop offset="50%" stop-color="#3d5a3a"/>
+      <stop offset="100%" stop-color="#2b2d27"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#heroGrad)"/>
+  <rect x="320" y="280" width="280" height="200" fill="#c9b89d" opacity="0.4"/>
+  <polygon points="300,290 460,170 620,290" fill="#c9b89d" opacity="0.5"/>
+  <circle cx="180" cy="340" r="35" fill="#5a7a52" opacity="0.8"/>
+  <circle cx="160" cy="360" r="28" fill="#3d5a3a" opacity="0.8"/>
+  <circle cx="200" cy="365" r="30" fill="#3d5a3a" opacity="0.8"/>
+  <rect x="175" y="375" width="10" height="25" fill="#2b2d27"/>
+  <circle cx="950" cy="320" r="42" fill="#5a7a52" opacity="0.7"/>
+  <circle cx="930" cy="340" r="34" fill="#3d5a3a" opacity="0.7"/>
+  <circle cx="970" cy="345" r="28" fill="#3d5a3a" opacity="0.7"/>
+  <rect x="945" y="358" width="12" height="30" fill="#2b2d27"/>
+  <ellipse cx="500" cy="420" rx="120" ry="12" fill="#b89a5b" opacity="0.3"/>
+  <ellipse cx="500" cy="440" rx="120" ry="10" fill="#c9b89d" opacity="0.4"/>
+  <path d="M580 420 Q600 380 620 340" stroke="#f7f4ee" stroke-width="40" stroke-linecap="round" opacity="0.5" fill="none"/>
+  <text x="600" y="100" text-anchor="middle" fill="#f7f4ee" font-family="Inter, sans-serif" font-size="48" font-weight="700">Creole Grounds</text>
+  <text x="600" y="140" text-anchor="middle" fill="#f7f4ee" font-family="Inter, sans-serif" font-size="22" font-weight="400">Upscale Residential Landscaping</text>
+</svg>

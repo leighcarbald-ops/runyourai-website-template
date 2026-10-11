@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hsdGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b2d27"/>
+      <stop offset="100%" stop-color="#5a7a52"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#hsdGrad)"/>
+  <rect x="100" y="180" width="200" height="70" rx="4" fill="#c9b89d"/>
+  <rect x="120" y="160" width="160" height="25" rx="3" fill="#c9b89d"/>
+  <g transform="translate(320,210) rotate(-15)">
+    <rect x="0" y="0" width="60" height="10" rx="5" fill="#f7f4ee"/>
+    <rect x="10" y="15" width="40" height="8" rx="4" fill="#f7f4ee"/>
+  </g>
+  <path d="M100 190 L40 230" stroke="#b89a5b" stroke-width="3" fill="none"/>
+  <circle cx="60" cy="235" r="20" fill="#b89a5b" opacity="0.3"/>
+  <text x="200" y="270" text-anchor="middle" fill="#f7f4ee" font-family="Inter, sans-serif" font-size="16" font-weight="600">Outdoor Living</text>
+</svg>

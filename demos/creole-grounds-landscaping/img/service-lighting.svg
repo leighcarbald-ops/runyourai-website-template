@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="ltgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b2d27"/>
+      <stop offset="100%" stop-color="#3d5a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#ltgGrad)"/>
+  <path d="M200 250 Q230 200 260 150 Q290 100 320 60" stroke="#f7f4ee" stroke-width="12" stroke-linecap="round" opacity="0.3" fill="none"/>
+  <g transform="translate(180,170)">
+    <rect x="-1.5" y="0" width="3" height="25" fill="#b89a5b"/>
+    <ellipse cx="0" cy="-5" rx="8" ry="4" fill="#b89a5b"/>
+  </g>
+  <g transform="translate(230,130)">
+    <rect x="-1.5" y="0" width="3" height="20" fill="#b89a5b"/>
+    <ellipse cx="0" cy="-5" rx="7" ry="4" fill="#b89a5b"/>
+  </g>
+  <g transform="translate(270,80)">
+    <rect x="-1.5" y="0" width="3" height="22" fill="#b89a5b"/>
+    <ellipse cx="0" cy="-5" rx="7" ry="4" fill="#b89a5b"/>
+  </g>
+  <rect x="300" y="180" width="70" height="70" fill="#c9b89d" opacity="0.5"/>
+  <polygon points="300,180 335,140 370,180" fill="#c9b89d" opacity="0.6"/>
+  <text x="200" y="270" text-anchor="middle" fill="#f7f4ee" font-family="Inter, sans-serif" font-size="16" font-weight="600">Landscape Lighting</text>
+</svg>
